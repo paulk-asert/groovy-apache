@@ -1,0 +1,8 @@
+def subprojects = [
+        'commons-math'
+]
+subprojects.each {
+    include it
+}
+
+rootProject.name = 'groovy-apache'

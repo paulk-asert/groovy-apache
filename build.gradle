@@ -1,0 +1,15 @@
+allprojects {
+    apply plugin: 'groovy'
+    apply plugin: 'idea'
+
+    repositories {
+//    mavenLocal()
+        mavenCentral()
+//    maven { url 'https://oss.jfrog.org/oss-snapshot-local/' }
+    }
+
+}
+
+dependencies {
+    compile "org.codehaus.groovy:groovy-all:$groovyVersion"
+}
